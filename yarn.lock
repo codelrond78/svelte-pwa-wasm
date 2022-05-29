@@ -1287,6 +1287,14 @@ array-flatten@1.1.1:
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
   integrity sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
 
+assemblyscript@^0.20.7:
+  version "0.20.7"
+  resolved "https://registry.yarnpkg.com/assemblyscript/-/assemblyscript-0.20.7.tgz#51a1a723adf3f0eee2f851c551c965cfa54b9770"
+  integrity sha512-qRQGBsNIvJJVthMNfLF5+N6ly+11sQPH4jCmv55oaOW1IcwMbsrXZLeQ4dfop7HOsgEJZmKLV44N4FXlZYV2Xg==
+  dependencies:
+    binaryen "108.0.0-nightly.20220528"
+    long "^5.2.0"
+
 assertion-error@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/assertion-error/-/assertion-error-1.1.0.tgz#e60b6b0e8f301bd97e5375215bda406c85118c0b"
@@ -1359,6 +1367,11 @@ binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
+
+binaryen@108.0.0-nightly.20220528:
+  version "108.0.0-nightly.20220528"
+  resolved "https://registry.yarnpkg.com/binaryen/-/binaryen-108.0.0-nightly.20220528.tgz#55e50ec50dc3cded36ad02e68ec69eb69bbb1e7b"
+  integrity sha512-9biG357fx3NXmJNotIuY9agZBcCNHP7d1mgOGaTlPYVHZE7/61lt1IyHCXAL+W5jUOYgmFZ260PR4IbD19RKuA==
 
 body-parser@1.19.2:
   version "1.19.2"
@@ -2999,6 +3012,11 @@ log-symbols@^3.0.0:
   integrity sha512-dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==
   dependencies:
     chalk "^2.4.2"
+
+long@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/long/-/long-5.2.0.tgz#2696dadf4b4da2ce3f6f6b89186085d94d52fd61"
+  integrity sha512-9RTUNjK60eJbx3uz+TEGF7fUr29ZDxR5QzXcyDpeSfeH28S9ycINflOgOlppit5U+4kNTe83KQnMEerw7GmE8w==
 
 loupe@^2.3.1:
   version "2.3.4"

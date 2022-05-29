@@ -1,7 +1,7 @@
 <script lang="ts">
   import Counter from '../lib/Counter.svelte'
   import Go from '../lib/Go.svelte'
-  import init from '../lib/example.wasm'
+  import init from '../lib/add.wasm'
 
   init().then((exports) => {
     let r = exports.add(3, 4)
