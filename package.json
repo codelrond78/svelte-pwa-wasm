@@ -17,6 +17,7 @@
     "start-sw-claims": "npm run run-build-sw-claims && npm run serve",
     "start-sw-claims-reloadsw": "npm run run-build-sw-reloadsw-claims && npm run serve",
     "dev": "run-p dev:*",
+    "dev:asbuild": "npm run asbuild:watch",
     "dev:routify": "routify",
     "dev:dev": "cross-env DEBUG=vite-plugin-pwa:* vite",
     "build": "routify -b && cross-env DEBUG=vite-plugin-pwa:* BASE_URL=/ SOURCE_MAP=true vite build",
